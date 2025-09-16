@@ -1,6 +1,6 @@
-# ☕ BLOOM COFFEE ROASTERS Website
+# ☕ Bloom Coffee Roaster's Website
 
-Welcome to the official repository for **BLOOM COFFEE ROASTERS** — a modern, responsive website designed to showcase premium coffee, roastery services, and an engaging brand identity online.  
+Welcome to the official repository for **Bloom Coffee Roaster** — a modern, responsive website designed to showcase premium coffee, roastery services, and an engaging brand identity online.  
 
 This project highlights a **sleek design, mobile-first responsiveness, and SEO-optimized content**, making it ideal for small businesses in the coffee and hospitality sector.
 
