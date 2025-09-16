@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bloom Coffee Roasters — Rewards</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="index.html">Bloom<span>Coffee</span></a>
+  <nav>
+    <ul class="nav-links" data-nav>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="rewards.html">Rewards</a></li>
+</ul>
+
+    <button class="nav-toggle" data-nav-toggle><i class="fa fa-bars"></i></button>
+    <button class="mode-toggle" data-theme-toggle>☀️/🌙</button>
+  </nav>
+</header>
+
+<main class="section container">
+  <h1 class="h2 reveal">My Rewards</h1>
+  <div id="rewards-summary" class="reveal glass"></div>
+
+  <div class="grid cards reveal">
+    <article class="card">
+      <h3>Free Espresso</h3>
+      <p>Redeem 100 points for a free Espresso.</p>
+      <button class="btn redeem-btn" data-cost="100" data-reward="Free Espresso">Redeem</button>
+    </article>
+    <article class="card">
+      <h3>10 AED Off</h3>
+      <p>Redeem 200 points for a 10 AED discount.</p>
+      <button class="btn redeem-btn" data-cost="200" data-reward="10 AED Discount">Redeem</button>
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <p class="fine">&copy; 2025 Bloom Coffee Roasters. All rights reserved.</p>
+</footer>
+</body>
+</html>

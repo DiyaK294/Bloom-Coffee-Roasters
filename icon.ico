@@ -1,0 +1,38 @@
+<!-- favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cup { fill: #3b2f2f; }       /* cup color (dark coffee brown) */
+      .coffee { fill: #6b4f3a; }    /* coffee surface */
+      .steam { fill: none; stroke: #9b7b5a; stroke-width: 3; stroke-linecap: round; }
+      /* optional: a subtle shadow for depth */
+      .shadow { fill: rgba(0,0,0,0.12); }
+      @media (prefers-color-scheme: dark) {
+        .steam { stroke: #c9b29c; }
+        .shadow { fill: rgba(255,255,255,0.06); }
+      }
+    </style>
+  </defs>
+
+  <!-- soft shadow under the cup -->
+  <ellipse class="shadow" cx="32" cy="52" rx="18" ry="4"/>
+
+  <!-- saucer -->
+  <ellipse fill="#d9cfc7" cx="32" cy="48" rx="22" ry="6"/>
+
+  <!-- cup body -->
+  <path class="cup" d="M16 22h28a0 0 0 0 1 0 0v14a12 12 0 0 1-12 12h-4A12 12 0 0 1 16 36V22a0 0 0 0 1 0 0z"/>
+  <!-- cup rim -->
+  <rect x="16" y="20" width="28" height="4" rx="2" fill="#4a3a3a"/>
+
+  <!-- handle -->
+  <path class="cup" d="M45 26h3a7 7 0 0 1 0 14h-4v-4h4a3 3 0 0 0 0-6h-3z"/>
+
+  <!-- coffee surface -->
+  <ellipse class="coffee" cx="30" cy="24" rx="12" ry="2.6"/>
+
+  <!-- steam -->
+  <path class="steam" d="M24 10c4 4 0 6 2 10"/>
+  <path class="steam" d="M32 8c4 5 0 7 2 12"/>
+  <path class="steam" d="M40 10c4 4 0 6 2 10"/>
+</svg>
