@@ -62,5 +62,3 @@ root/
 │ └── icons/ # SVG icons (socials, UI)
 └── README.md # Project documentation
 
-
-## Enjoy!
