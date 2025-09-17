@@ -47,7 +47,7 @@ This project highlights a **sleek design, mobile-first responsiveness, and SEO-o
 ### Installation
 Clone the repo:
 ```bash
-git clone https://github.com/username/bloom-coffee-roasters.git
+git clone https://github.com/diyaK294/bloom-coffee-roasters.git
 cd bloom-coffee-roasters
 
 ## 📂 Project Structure
